@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+E:\Pedro_Estudos\Java\Arquivos\Sistema Farmacia\Workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+951821970.index
+3499446782.index
+842870614.index
+2857663006.index
+4070976550.index
+829889550.index
+3393533102.index

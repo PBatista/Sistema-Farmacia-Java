@@ -1,0 +1,459 @@
+!SESSION 2016-06-06 11:35:11.266 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Sistema Farmacia\Workspace -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-06-06 11:36:04.064
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:92)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:55)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-06 11:36:04.526
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hugo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-06-06 11:38:35.445 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Sistema Farmacia\Workspace -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-06 11:38:54.324
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hugo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-06-06 12:00:53.342
+!MESSAGE cacheFile=file:/C:/Sistema/IDE/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-06-06 12:00:53.343
+!MESSAGE cacheFile=file:/C:/Sistema/IDE/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-06-06 12:01:47.597
+!MESSAGE cacheFile=file:/C:/Sistema/IDE/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+!SESSION 2016-06-07 11:32:27.485 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Sistema Farmacia\Workspace -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-07 11:32:58.280
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hugo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-06-08 11:08:34.334 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-06-08 11:11:26.179
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-08 11:14:49.534
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hugo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-06-08 11:14:53.464
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+!SESSION 2016-06-09 10:12:35.880 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-09 10:16:46.969
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hugo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.jsf.common 4 0 2016-06-09 10:18:54.987
+!MESSAGE Unable to load external metadata model refs for http://java.sun.com/jsf/html into HTML
+
+!ENTRY org.eclipse.osgi 4 0 2016-06-09 10:28:11.985
+!MESSAGE Shutdown error
+!STACK 1
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(Unknown Source)
+	at java.util.concurrent.locks.ReentrantLock.lockInterruptibly(Unknown Source)
+	at org.eclipse.osgi.container.SystemModule.waitForStop(SystemModule.java:119)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle.waitForStop(EquinoxBundle.java:259)
+	at org.eclipse.osgi.launch.Equinox.waitForStop(Equinox.java:181)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:436)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SESSION 2016-06-09 10:35:24.100 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-09 10:40:39.857
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hugo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-06-09 10:41:01.938
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+!SESSION 2016-06-09 11:31:22.945 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-09 11:31:39.623
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hugo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-06-10 08:48:17.477 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-10 08:49:41.236
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hugo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-03-26 17:36:06.110 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2019-03-26 17:37:10.585
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-26 17:37:10.585
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.egit.core 1 0 2019-03-26 17:37:10.944
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-03-26 17:37:11.849
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-03-26 17:37:11.881
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-26 17:37:17.176
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-26 17:37:21.569
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\conta'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2019-03-26 17:58:01.208
+!MESSAGE The archive: C:/Sistema Farmacia/Server/apache-tomcat-7.0.69/bin/bootstrap.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2019-03-26 18:00:30.850
+!MESSAGE The archive: C:/Sistema Farmacia/Server/apache-tomcat-7.0.69/bin/bootstrap.jar which is referenced by the classpath, does not exist.
+!SESSION 2019-03-27 08:51:53.664 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-03-27 08:54:57.900
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-27 08:55:05.495
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-27 08:55:13.926
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\conta'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-03-27 08:57:14.626
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 09:00:56.592
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 09:01:21.689
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 09:04:29.563
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 09:05:07.132
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 09:07:07.196
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 09:09:40.005
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 09:13:16.285
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+!SESSION 2019-03-27 09:46:39.291 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-27 09:47:05.820
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2019-03-27 09:48:53.068
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-27 09:48:59.730
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-27 09:49:08.206
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\conta'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2019-03-27 09:49:13.518
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 09:56:50.032
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 10:02:04.122
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 10:04:07.312
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-27 10:06:55.710
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-27 10:11:05.211
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+!SESSION 2019-03-30 16:11:25.123 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-03-30 16:14:02.949
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-30 16:14:08.883
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 16:14:17.305
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\conta'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.browser 4 0 2019-03-30 16:18:57.655
+!MESSAGE Launching C:\Program Files (x86)\Mozilla Firefox\firefox.exe has failed.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files (x86)\Mozilla Firefox\firefox.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.openBrowser(MozillaBrowser.java:106)
+	at org.eclipse.ui.internal.browser.browsers.MozillaBrowser$BrowserThread.run(MozillaBrowser.java:178)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 5 more
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-30 20:44:25.522
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
